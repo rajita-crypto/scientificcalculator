@@ -8,48 +8,45 @@
   </head>
   <body>
     <div class="calculator">
-      <div class="display-wrap">
-        <input id="display" type="text" readonly />
-      </div>
+      <input id="display" type="text" readonly />
 
       <div class="buttons">
-        <button class="btn clear" data-action="clear">AC</button>
-        <button class="btn function" data-value="(">(</button>
-        <button class="btn function" data-value=")">)</button>
-        <button class="btn operator" data-value="/">÷</button>
+        <button data-action="clear" class="btn clear">AC</button>
+        <button data-action="delete" class="btn delete">DEL</button>
+        <button data-value="(" class="btn operator">(</button>
+        <button data-value=")" class="btn operator">)</button>
 
-        <button class="btn function" data-value="sin(">sin</button>
-        <button class="btn function" data-value="cos(">cos</button>
-        <button class="btn function" data-value="tan(">tan</button>
-        <button class="btn operator" data-value="*">×</button>
+        <button data-value="sin(" class="btn function">sin</button>
+        <button data-value="cos(" class="btn function">cos</button>
+        <button data-value="tan(" class="btn function">tan</button>
+        <button data-value="/" class="btn operator">÷</button>
 
-        <button class="btn function" data-value="log(">log</button>
-        <button class="btn function" data-value="ln(">ln</button>
-        <button class="btn function" data-value="sqrt(">sqrt</button>
-        <button class="btn operator" data-value="-">−</button>
+        <button data-value="log(" class="btn function">log</button>
+        <button data-value="ln(" class="btn function">ln</button>
+        <button data-value="sqrt(" class="btn function">sqrt</button>
+        <button data-value="*" class="btn operator">×</button>
 
-        <button class="btn function" data-value="pi">π</button>
-        <button class="btn function" data-value="e">e</button>
-        <button class="btn function" data-value="abs(">abs</button>
-        <button class="btn operator" data-value="+">+</button>
+        <button data-value="pi" class="btn function">π</button>
+        <button data-value="e" class="btn function">e</button>
+        <button data-value="^" class="btn operator">^</button>
+        <button data-value="-" class="btn operator">−</button>
 
-        <button class="btn number" data-value="7">7</button>
-        <button class="btn number" data-value="8">8</button>
-        <button class="btn number" data-value="9">9</button>
-        <button class="btn delete" data-action="delete">DEL</button>
+        <button data-value="7" class="btn number">7</button>
+        <button data-value="8" class="btn number">8</button>
+        <button data-value="9" class="btn number">9</button>
+        <button data-value="+" class="btn operator">+</button>
 
-        <button class="btn number" data-value="4">4</button>
-        <button class="btn number" data-value="5">5</button>
-        <button class="btn number" data-value="6">6</button>
-        <button class="btn function" data-value="^">^</button>
+        <button data-value="4" class="btn number">4</button>
+        <button data-value="5" class="btn number">5</button>
+        <button data-value="6" class="btn number">6</button>
 
-        <button class="btn number" data-value="1">1</button>
-        <button class="btn number" data-value="2">2</button>
-        <button class="btn number" data-value="3">3</button>
-        <button class="btn equals" data-action="equals">=</button>
+        <button data-value="1" class="btn number">1</button>
+        <button data-value="2" class="btn number">2</button>
+        <button data-value="3" class="btn number">3</button>
 
-        <button class="btn number" data-value="0">0</button>
-        <button class="btn number" data-value=".">.</button>
+        <button data-value="0" class="btn number zero">0</button>
+        <button data-value="." class="btn number">.</button>
+        <button data-action="equals" class="btn equal">=</button>
       </div>
     </div>
 
